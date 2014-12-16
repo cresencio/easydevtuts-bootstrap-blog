@@ -1,0 +1,10 @@
+@import "../bootstrap/stylesheets/bootstrap";
+
+.widget_recent_comments ul, .widget_meta ul, .widget_archive ul, #menu-elsewhere{
+  @extend .list-unstyled;
+}
+
+.widget_calendar table{
+	@extend .table;
+	@extend .table-hover;
+}
